@@ -26,6 +26,13 @@ Program ini dibagi menjadi dua package utama:
   - displayInfo(): Menampilkan informasi lengkap kamera.
 - main.CameraRental: Class ini berfungsi sebagai program utama yang menyediakan menu untuk mengelola kamera dengan operasi CRUD.
 
+### Konsep yang Diterapkan pada Post Test 2
+- Inheritance: Subclass DSLR dan Mirrorless mewarisi properti dan metode dari superclass Camera.
+- Encapsulation: Menggunakan getter dan setter untuk mengatur akses ke properti dari class Camera.
+- Abstraction: Menggunakan class abstrak Camera yang memiliki metode abstrak displayInfo().
+- Interface: CRUD adalah interface yang mendefinisikan metode untuk operasi CRUD (Create, Read, Update, Delete).
+- Final Keyword: Digunakan pada class CameraRental dan properti seperti id, lensType, dan hasEVF untuk mencegah modifikasi setelah inisialisasi.
+
 # Output
 
 ***Menu Utama***\
